@@ -1,0 +1,9 @@
+''''''''''''''''''''''' ******************** All about dirs *******************
+1. pwd ( present working directory )
+2. ls ( listing all directory and files )
+3. ls -l ( listing all directory and files { WITH AUTHOR } )
+4. ls -a ( listing all directory and files including hedden files and folders )
+5. ls -al ( listing all directory and files including hedden files and folders )
+6. ls -alH ( listing all directory and files including hedden files and folders WITH HUMAN READABLE { h } help --ls )
+7. ls -lR {  ls -lR Desktop } ( listing all directory and files Recursively )
+ 

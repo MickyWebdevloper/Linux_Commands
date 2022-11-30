@@ -1,0 +1,4 @@
+''''''''''''''''''''''''''''''''''''''''''''  HELP/help  ''''''''''''''''''''''''''''
+CD --HELP  'getting help for cp, it would be with anything'
+rm --help 
+anyking of help i will get here.

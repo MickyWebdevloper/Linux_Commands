@@ -1,0 +1,7 @@
+pwd = present working directory
+ls = listing datas
+ls = ls-a
+ls = ls-la
+ls = ls-ll
+ls = ls-ls
+ls = ls-ltr

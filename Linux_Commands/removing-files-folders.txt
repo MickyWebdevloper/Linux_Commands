@@ -1,0 +1,3 @@
+'''''''''''''''''''''''''''''''' remove diretories '''''''''''''''''''''''''''''''''''''''''''''''''
+rm -r or -R 'dir name' ( copy directory )
+rm -f ab.txt ( removing files )

@@ -1,0 +1,3 @@
+-------------> start firefox && notepad
+-------------> start firefox && code .
+LIKE THIS

@@ -1,0 +1,6 @@
+'''''''''''''''''''''' Moving directories with content, files, folders ''''''''''''
+ mv two/ one/ ( folders moving )
+ mv two/ one/ ( folders moving )
+mv -f django_login.py Linux_Commands/  ( copy file )
+
+Notes -> user ('one space where does not working') { space }

@@ -1,0 +1,138 @@
+'''''''''''''''''''''''' Knowledge is everything '''''''''''''''''
+
+pwd = present working directory
+ls = listing datas
+ls = ls-a
+ls = ls-la
+ls = ls-ll
+ls = ls-ls
+ls = ls-ltr
+
+
+$ PS1="custom->"; not permanent.
+Strting from here ('how to customize terminal')
+	cd ~ 
+	touch .bash_profile
+	touch .bashrc
+	close onetime again open terminal.
+	prompr will be 'cuntom ->' work as terminal.
+
+		I can cuntom terminal for Temporery'PS1='custom ->';
+			it will be 'custom ->'
+Related to Customize Terminal.
+$ mkdir DotFiles/
+	 mv .bash_profile DotFiles
+	 mv .bashrc DotFiles
+
+nano.bashrc ''''''''''''''''' **************** '''''''''''''''
+PS1='-> ';
+export PS1;
+
+PS1='\u-> '; userername.
+export PS1;
+There are many special characters.
+1. \h	 the hostname up to the first .
+2. \n	 newline
+3. \s 	 the name of the shell
+4. \t 	 the current time in 24-hour format
+5. \u 	 the usermane of the current user.
+6. \w 	 the current working directory
+7. \W 	 the basename of the current working directory. 	
+
+PS1='\u@\h \W-> ';
+export PS1;
+
+echo "your current directory is $(pwd)"
+echo "$(tput setaf 166)This is orange"; changing color . Not workig 'check it out later.'
+
+PS1="$(tput setaf 166)\u@\h \W-> $(tput sgr0)";
+export PS1; not working.
+PS1="\[$(tput setaf 166)\]\u";        # orange 
+PS1+="\[$(tput setaf 288)\]"      # yellow host
+PS1+="\[$(tput setaf 71)\]\W ->";
+PS1+="\[$(tput sgr0)\]";
+export PS1;
+
+PS1+="\[${bold}\]\n";
+PS1+="\[${orange}\]\n"; #username
+PS1+="\[${white}\] at";
+PS1+="\[${yellow}\] in ";
+PS1+="\[${green}\]\W"; #working directory
+PS1+="\n";
+PS1+="\[${white}\]\$ \[${reset}\]"; # '$' (and reset color)
+
+''''''''''''''''''''''''''''''''''''''''''''  HELP/help  ''''''''''''''''''''''''''''
+CD --HELP  'getting help for cp, it would be with anything'
+rm --help 
+anyking of help i will get here.
+
+'''''''''''''''''''''''''''''''' remove diretories '''''''''''''''''''''''''''''''''''''''''''''''''
+rm -r or -R 'dir name' ( copy directory )
+rm -f ab.txt ( removing files )
+
+
+''''''''''''''''''''''''''''''''''''''''' Coping Directories ''''''''''''''''''''''''''''
+cp -r three one/two/three/four
+cp -f ab.txt
+
+
+''''''''''''''''''''''''''' Moving Directories '''''''''''''''''''''''''''''''
+mv three one/two/three
+it could be anywhere.
+
+''''''''''''''''''''''''''''''' Creating Files '''''''''''''''''''''''''''''' 
+creating one file at the time ''' touch one.txt '''
+touch three.txt four.txt ''''' touch one.txt '''''''
+touch three.txt four.txt five.txt six.txt sever.txt eight.txt nine.txt ten.txt
+mkdir heloworld
+
+'''''''''''''''''''''' Moving directories with content, files, folders ''''''''''''
+ mv two/ one/ ( folders moving )
+ mv two/ one/ ( folders moving )
+mv -f django_login.py Linux_Commands/  ( copy file )
+
+Making dirs '''''''''''''''''''''''
+mkdir three/ four/ five
+
+*****************************Renaming a file *****************************
+mv django_login.py Linux_Commands.txt (mv 'old file name' 'new file name')
+
+****************************** '''''''' find '''' ****************
+find .
+find one ( directory name )
+find . type d ( only directories )
+find . type f ( only files)
+find -type f -name 'onetwothree.txt'
+find -type f -name 'one*' ( if you do not know whole name or anything ) case sensitive 
+find -type f -iname 'one*' ( if you do not know whole name or anything ) not case secsitive this one.
+find -type f -iname '*.py' or ('*.txt') 
+find -type f -mmin -10 ( modified less than 10 minutes )
+find -type f -mmin -10 ( modified more than 10 minutes )
+find -type f -mmin +1 -mmin -10 ( create more than 1 min and less than -10 minutes )
+find -type f -mtime -10 ( create less than 10 days before )
+find -type f -mtime +10 ( create more than 10 days before )
+find . -size -1M ( find file which less then 1 MB )
+find . -size -1M ( find file which Greater then 1 MB )
+find . -size -1K ( find file which less then 1 MB )
+find . -size +1K ( find file which Greater then 1 MB )
+''''''''''''''''''	ls -lah ( Check file's size mb or k with how much ) '''''''''''
+find . -size -1G ( find file which less then 1 Gegabite ) GB
+find . -size +1G ( find file which Greater then 1 Gegabite ) GB
+find . -empty ( find epmty files )
+ 
+find . -prem 777 ( should i have rwcx permisition ) not working.
+find one -exec chown hacker:hacker {} + ( not working 12 min )
+find one -perm 775 (  not working )
+find . -type f -name '*.txt' -maxdepth 1 (  not working )
+
+
+
+
+
+
+
+
+
+
+
+

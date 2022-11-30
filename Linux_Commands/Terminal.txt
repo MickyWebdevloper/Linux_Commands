@@ -1,0 +1,6 @@
+1. echo $SHELL ( For seeing which shell your are using, bash shell or cshell bornshell shell)
+2. Win + Arrow ( move where you want )
+3. Auto Complete ( use TAB )
+4. CRTL + SHIFT + ( + ) { increase font size }
+5. CRTL + ( _ )  { dcreasee font size }
+6. Arrow keys ( previous commands )

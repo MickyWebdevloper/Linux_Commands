@@ -1,0 +1,3 @@
+''''''''''''''''''''''''''''''''''''''''' Coping Directories ''''''''''''''''''''''''''''
+cp -r three one/two/three/four
+cp -f ab.txtur

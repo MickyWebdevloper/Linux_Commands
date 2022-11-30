@@ -1,0 +1,5 @@
+''''''''''''''''''''''''''''''' Creating Files '''''''''''''''''''''''''''''' 
+creating one file at the time ''' touch one.txt '''
+touch three.txt four.txt ''''' touch one.txt '''''''
+touch three.txt four.txt five.txt six.txt sever.txt eight.txt nine.txt ten.txt
+mkdir heloworld

@@ -1,0 +1,9 @@
+creating a file ('names.txt') 
+	there are many files inside 'Names.txt'
+
+Notes (''' Just use Help first ''')
+1. grep micky names.txt
+2. grep "micky the virus" names.txt
+3. grep -i ( ignoring case secsetive ) grep "micky" names.txt
+4. grep -w ( matching only ) grep "micky the virus" names.txt
+5. grep -wi ( matching only ) grep "micky the virus" names.txt

@@ -1,0 +1,3 @@
+
+*****************************Renaming a file *****************************
+mv django_login.py Linux_Commands.txt (mv 'old file name' 'new file name')

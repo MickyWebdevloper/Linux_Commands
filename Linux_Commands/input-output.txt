@@ -1,0 +1,20 @@
+# input_output.sh
+#outpur
+    1. ls -l > /Hello/ab.txt # 
+    1.1 ls -ltr > /Hello/ab.txt
+    1.2 date >> /Hello/ab.txt
+
+# input_output.sh
+#input
+1. mail -s 'Thanks you watchin' < /Hello/abc.txt
+
+
+ls -ltr
+vim /Hello/abc.txt
+# Vim close ('Esc - w - for save
+                 - q for exit')
+# wc -l < /Hello/ab.txt ( 'word count')
+
+
+
+
